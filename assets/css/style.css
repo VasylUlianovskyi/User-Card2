@@ -37,8 +37,7 @@ img {
   height: 16rem;
   border-radius: 50%;
   object-fit: cover;
-  position: relative;
-  top: 2rem;
+  padding: 2rem;
   size: 200%;
 }
 
@@ -73,9 +72,13 @@ h2 {
 
 .social-links {
   display: flex;
+  justify-content: center;
   gap: 2rem;
   font-size: 2.3rem;
   padding-top: 2rem;
+  width: 88%;
+  border-bottom: 0.5px solid #9a9a9a;
+  padding-bottom: 1.3rem;
 }
 
 
@@ -101,16 +104,10 @@ a {
   justify-content: space-around;
   gap: 10px;
   width: 100%;
-  padding: 1.8rem;
-  border-top: 1px solid blak;
+  padding: 1.5rem;
+
 }
 
-.line {
-  width: 88%;
-  border: 0.5px solid #9a9a9a;
-  position: relative;
-  top: 15px
-}
 
 .btn {
   height: 3.6rem;
@@ -122,6 +119,6 @@ a {
   cursor: pointer;
 }
 
-.btn:first-child {
+.contact-btn {
   background-color: #806F51;
 }
